@@ -317,7 +317,7 @@ const SUPABASE_URL='https://lrrxswxvphoeyuvemvin.supabase.co';
 const SUPABASE_ANON_KEY='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imxycnhzd3h2cGhvZXl1dmVtdmluIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjgzMzU1NjksImV4cCI6MjA4MzkxMTU2OX0.54qS-CTVL9XeIbNO83r8spsRrk8woyBz3u-HoRdFxHs';
 let sb=supabase.createClient(SUPABASE_URL,SUPABASE_ANON_KEY);
 
-const ACCESS_MAP={'dulancliniccloud@gmail.com':['DC_data_base'],'ttricloudtest001@gmail.com':['CY_data_base','YK_data_base'],'kingpig4628@gmail.com':['DC_data_base','CY_data_base','YK_data_base'],'zywu.1487@gmail.com':['DC_data_base','CY_data_base','YK_data_base']'ttrismartextilegpt@gmail.com':  ['DC_data_base', 'CY_data_base', 'YK_data_base']};
+const ACCESS_MAP={'dulancliniccloud@gmail.com':['DC_data_base'],'ttricloudtest001@gmail.com':['CY_data_base','YK_data_base'],'kingpig4628@gmail.com':['DC_data_base','CY_data_base','YK_data_base'],'zywu.1487@gmail.com':['DC_data_base','CY_data_base','YK_data_base']',ttrismartextilegpt@gmail.com':  ['DC_data_base', 'CY_data_base', 'YK_data_base']};
 const TABLE_LABEL={'DC_data_base':'都蘭診所','CY_data_base':'嘉義醫院','YK_data_base':'員郭醫院'};
 const AGG_COLS=[{key:'time',label:'分鐘',badge:false},{key:'count',label:'筆數',badge:false},{key:'heartbeat',label:'心跳 avg',badge:true},{key:'temp',label:'體溫 avg',badge:true},{key:'breath',label:'呼吸 avg',badge:false},{key:'sbp',label:'收縮壓 avg',badge:true},{key:'dbp',label:'舒張壓 avg',badge:true},{key:'pulse',label:'脈搏 avg',badge:false},{key:'step',label:'步數 avg',badge:false},{key:'calorie',label:'卡路里 avg',badge:false}];
 const HOURS_PER_PAGE=6;
